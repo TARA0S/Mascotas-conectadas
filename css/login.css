@@ -1,0 +1,127 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.loginpage {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.loginleft{
+    padding: 3%;
+    background-color: #99ccff;
+    width: 35vw;
+    
+}
+
+.loginright{
+    padding: 3%;
+    background-color: #ccc;
+    background-image: url("../img/Fondo.png");
+    width: 65vw;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.logologin{
+    color: #1d3557;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+}
+
+.mascotastexto {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.minilogo {
+    height: 100px;  
+}
+
+h4 {
+    color: #1d3557;
+    padding-bottom: 8%;
+    font-size: 100%;
+}
+
+.logininput {
+    width: 100%;
+}
+.labels {
+    font-weight: bold;
+    font-size: 18px;
+    color: #444;
+}
+
+.logininputbelow {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 2% 4%;
+    border: 2px solid #444;
+    margin-bottom: 5%;
+}
+
+input[type=checkbox] {
+    margin-right:10px;
+    vertical-align: top;
+}
+
+.rememberme {
+    font-size: 12px;
+}
+
+.buttonlogin {
+    width: 100%;
+    padding: 1% 5%;
+    border: 2px solid #1d3557;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+.buttonlogin:hover {
+    background-color: #1d3557;
+    color: #ccc;
+}
+
+.userlinks {
+    font-size: 14px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.copyright {
+    padding-top: 15%;
+    text-align: center;
+}
+
+
+/*screen2 -------------------------*/
+.sc2labels .sc3labels {
+    width: 100%;
+    padding-top: 8%;
+}
+
+.svgs {
+    width: 100px; 
+    padding-bottom: 8%;
+}
