@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "nombre": "Mindy",
+    "tipo": "gato",
+    "edad": "joven",
+    "tamano": "chico",
+    "color": "negro",
+    "imagenes": [
+      "img/gatoMyndy/Myndy1.png",
+      "img/gatoMyndy/Myndy2.png"
+    ],
+    "descripcion": "Tranquila, le encantan las caricias."
+  },
+  {
+    "id": 2,
+    "nombre": "Toro",
+    "tipo": "perro",
+    "edad": "cachorro",
+    "tamano": "grande",
+    "color": "blanco",
+    "imagenes": [
+      "img/perroToro/Toro1.png",
+      "img/perroToro/Toro2.png"
+    ],
+    "descripcion": "Juguetón y cariñoso. Busca familia activa."
+  },
+  {
+    "id": 3,
+    "nombre": "Mora",
+    "tipo": "gato",
+    "edad": "adulto",
+    "tamano": "mediano",
+    "color": "manchado",
+    "imagenes": [
+      "img/gatoMora/Mora1.png",
+      "img/gatoMora/Mora2.png"
+    ],
+    "descripcion": "Muy sociable, convive con perros y niños."
+  },
+  {
+    "id": 4,
+    "nombre": "Koko",
+    "tipo": "perro",
+    "edad": "adulto",
+    "tamano": "grande",
+    "color": "negro",
+    "imagenes": [
+      "img/perroKoko/Koko1.png",
+      "img/perroKoko/Koko2.png"
+    ],
+    "descripcion": "Fuerte, protector y muy leal. Ideal para familia con espacio."
+  },
+  {
+    "id": 5,
+    "nombre": "Mimi",
+    "tipo": "gato",
+    "edad": "abuelo",
+    "tamano": "chico",
+    "color": "blanco",
+    "imagenes": [
+      "img/gatoMimi/Mimi1.png",
+      "img/gatoMimi/Mimi2.png"
+    ],
+    "descripcion": "Abuelita dulce. Solo quiere un sillón y amor."
+  },
+  {
+    "id": 6,
+    "nombre": "Dulce",
+    "tipo": "perro",
+    "edad": "joven",
+    "tamano": "mediano",
+    "color": "manchado",
+    "imagenes": [
+      "img/perroDulce/Dulce1.png",
+      "img/perroDulce/Dulce2.png"
+    ],
+    "descripcion": "Energético, ama jugar con niños. Busca compañía activa."
+  }
+]

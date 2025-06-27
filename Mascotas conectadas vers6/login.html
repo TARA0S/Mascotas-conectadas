@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mascotas Conectadas | Log-In</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="icon" href="./img/Logo.png">
+    <script src="login.js"></script>
+</head>
+<body>
+    <div class = "loginpage">
+        <div class="loginleft">
+            <div class = "logologin">
+                    <img class = "minilogo" src="img/Logo.png" alt="#">
+                    <h4 class="mascotastexto">MASCOTAS CONECTADAS</h4>
+                </div>
+            <div class = "screen" id = "screen1">
+                <h4>Log-In</h4>
+                <div class = "logininput">
+                    <label for="mail" class="labels">Direccion de correo.</label>
+                    <input type="text" placeholder="example@mail.com" name="mail" required>
+                    <label for="password" class="labels">Contraseña.</label>
+                    <input type="password" name="password" required>
+                </div>
+                <div class="logininputbelow">
+                    <label class = "rememberme"><input type="checkbox" checked="checked" name="remember">Remember Me</label>
+                    <button type="submit" class="buttonlogin">Iniciar Sesión</button>
+                    <a href="#" class="userlinks">Olvidaste tu contraseña?</a>
+                    <a href="#" class="userlinks">No tienes una cuenta?</a>
+                </div>
+            </div>
+            
+            <div class = "screen" id = "screen2" style="display:none;">
+                <h4>Olvidaste la contraseña?</h4>
+                <div class="sc2labels">
+                    <label for="mail" class="labels">Ingrese su direccion de correo</label>
+                    <input type="text" placeholder="example@mail.com" name="mail" required>
+                    <button type="button" class="buttonlogin" id="enviarRecuperacion">Enviar correo</button>
+                </div>
+            </div>
+
+            <div class = "screen" id = "screen3" style="display:none;">
+                <h4>Crea una cuenta</h4>
+                <div class="sc3labels">
+                    <label for="names" class="labels">Nombre/s</label>
+                    <input type="text" placeholder="Tu/s nombre/s" name="names" required>
+                    <label for="surnames" class="labels">Apellido/s</label>
+                    <input type="text" placeholder="Tu/s apellido/s" name="surnames" required>
+                    <label for="mail" class="labels">Ingrese su direccion de correo</label>
+                    <input type="text" placeholder="example@mail.com" name="mail" required>
+                    <label for="password" class="labels">Contraseña</label>
+                    <input type="password" name="password" required>
+                    <button type="button" class="buttonlogin" id="registrarse">Registrarse</button>
+                </div>
+            </div>
+
+            <div class = "screen" id = "screen4" style="display:none;">
+                <h4>Confirmacion de correo electrónico</h4>
+                <img class = "svgs" style = "filter: invert(17%) sepia(12%) saturate(3138%) hue-rotate(176deg) brightness(96%) contrast(90%);" src="./img/info.svg" alt="">
+                <h5 style="font-weight: lighter; text-align: justify;">Se ha enviado un correo con instrucciones a seguir para confirmar la validez de la direccion. Por favor revise tambien la carpeta Spam si no encuentra el correo.</h5>
+                <button type="button" class="buttonlogin" id="okConfirmacion">Ok</button>
+            </div>
+
+            <div class = "screen" id = "screen5" style="display:none;">
+                <h4>Recuperación de contraseña</h4>
+                <img class = "svgs" src="./img/user_info.svg" alt="">
+                <h5 style="font-weight: lighter; text-align: justify;">Se ha enviado un correo con instrucciones a seguir para recuperar la contraseña. Por favor revise tambien la carpeta Spam si no encuentra el correo.</h5>
+                <button type="button" class="buttonlogin" id="okRecuperacion">Ok</button>
+            </div>
+
+            <h6 class="copyright">Copyright © 2025 Mascotas Conectadas</h6>
+        </div>
+
+        <div class="loginright">
+            
+        </div>
+    </div>
+    
+</body>
+</html>

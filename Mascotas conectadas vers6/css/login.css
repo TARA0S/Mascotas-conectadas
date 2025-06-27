@@ -1,0 +1,185 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.loginpage {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.loginleft{
+    padding: 3%;
+    background-color: #99ccff;
+    width: 35vw;
+    position: relative;
+}
+
+.loginright{
+    padding: 3%;
+    background-color: #ccc;
+    background-image: url("../img/Fondo.png");
+    width: 65vw;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.logologin{
+    color: #1d3557;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mascotastexto {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.minilogo {
+    height: 100px;  
+}
+
+h4 {
+    color: #1d3557;
+    padding-bottom: 8%;
+    font-size: 100%;
+}
+
+.logininput {
+    width: 100%;
+}
+.labels {
+    font-weight: bold;
+    font-size: 18px;
+    color: #444;
+}
+
+.logininputbelow {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 2% 4%;
+    border: 2px solid #444;
+    margin-bottom: 5%;
+}
+
+input[type=checkbox] {
+    margin-right:10px;
+    vertical-align: top;
+}
+
+.rememberme {
+    font-size: 12px;
+}
+
+.buttonlogin {
+    width: 100%;
+    padding: 1% 5%;
+    border: 2px solid #1d3557;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+.buttonlogin:hover {
+    background-color: #1d3557;
+    color: #ccc;
+}
+
+.userlinks {
+    font-size: 14px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #1d3557;
+    font-size: 13px;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*screen2 -------------------------*/
+.sc2labels, .sc3labels {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+#screen2, #screen3, #screen4, #screen5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+}
+
+.svgs {
+    width: 60px;
+    height: 60px;
+    margin: 20px 0;
+}
+
+#screen4 h5, #screen5 h5 {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#screen3 {
+    max-width: 350px;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+    border-radius: 12px;
+    background: #f8faff;
+}
+#screen3 .sc3labels {
+    gap: 6px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding-bottom: 0;
+    align-items: stretch;
+}
+#screen3 label.labels {
+    font-size: 15px;
+    margin-bottom: 2px;
+    margin-top: 6px;
+    color: #1d3557;
+    font-weight: 600;
+}
+#screen3 input[type="text"], #screen3 input[type="password"] {
+    font-size: 15px;
+    padding: 6px 10px;
+    margin-bottom: 6px;
+}
+#screen3 .buttonlogin {
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 7px 0;
+}
